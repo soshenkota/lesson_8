@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Pacifico&display=swap');
+body{
+   font-family: "Lato";
+   color: #424551;
+}
+[class*="__container"] {
+   max-width: 1230px;
+   margin: 0 auto;
+}
+.page__title {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+   margin-bottom: 40px;
+}
+.page__text {
+   line-height: 160%;
+   margin-bottom: 48px;
+}
+.page__title2 {
+   font-weight: 700;
+   font-size: 28px;
+   line-height: 150%;
+   color: #1E212C;
+   margin-bottom: 24px;
+}
+.page__list{
+   margin-bottom: 100px;
+}
+.page__item-list {
+   line-height: 160%;
+   background: url("../img/check.jpg") 0 4px no-repeat;
+   padding-left: 32px;
+}
+.small {
+   margin-bottom: 16px;
+}
+.curator{
+font-weight: 700;
+line-height: 150%;
+letter-spacing: 1px;
+text-transform: uppercase;
+color: #1E212C;
+margin-bottom: 8px;
+}
+.next-page {
+   font-weight: 900;
+   font-size: 46px;
+   line-height: 130%;
+   color: #1E212C;
+}
+.professions {
+   font-size: 20px;
+   line-height: 150%;
+   color: #787A80;
+   margin-bottom: 32px;
+}
+.block-about {
+   font-weight: 700;
+   line-height: 160%;
+   margin-bottom: 32px;
+}
+.rate{
+background: url("../img/Star.jpg") 0 4px no-repeat;
+padding-left: 24px;
+}
+.courses {
+background: url("../img/Play.jpg") 0 4px no-repeat;
+padding-left: 24px;
+}
+.students {
+   background: url("../img/Profile.jpg") 0 4px no-repeat;
+   padding-left: 24px;
+}
+.block-last {
+   line-height: 160%;
+   margin-bottom: 100px;
+}
+.block__hover {
+   background: pink;
+   max-width: 600px;
+   min-height: 100px;
+   margin: 0 auto;
+   margin-bottom: 50px;
+}
+.block__hover:hover{
+   background: rgb(59, 58, 0.5);
+   color: aliceblue;
+}
+.block__hover:hover .hover{
+   opacity: 1;
+   visibility: visible;
+}
+.hover {
+   opacity: 0;
+   visibility: hidden;
+   text-align: center;
+   padding-top: 20px;
+}
+span{
+   color:red;
+   text-decoration: underline;
+}
+.block__activ {
+   background: #39333377;
+   max-width: 600px;
+   min-height: 100px;
+   margin: 0 auto;
+   color: pink;
+   padding: 15px;
+   margin-bottom: 50px;
+}
+.block__activ:active{
+   background: palevioletred;
+   text-transform: uppercase;
+}
+.activ:active {
+   color: blue;
+}
+.activ{
+   text-align: center;
+   padding-top: 20px;
+}
+.block__visited {
+   text-align: center;
+   font-size: 50px; 
+   margin-bottom: 80px;
+}
+a:visited {
+color: purple;
+}
+ul ul{
+   display: none;
+}
+ul li:hover ul{
+   display: block;
+}
+
+.block__focus {
+ text-align: center;
+ font-size: 30px;
+ margin-bottom: 50px;
+}
+a:focus{
+outline: 2px solid purple;
+}
+.block__target{
+  text-align: center;
+  background: rgb(184, 234, 184);
+  color: rgb(42, 33, 210);
+  padding: 20px;
+  display: none;
+  margin-bottom: 50px;
+}
+.link-link{
+   margin-bottom: 50px;
+}
+.block__target:target{
+   display: block;
+}
+.text__block{
+   text-align: center;
+   font-size: 30px;
+   margin-bottom: 30px;
+}
+.text__block p:first-child{
+   font-size: 60px;
+}
+.text__block p:last-child{
+   color: aqua;
+}
+.text__block p:nth-child(2){
+   color: blue;
+}
+.block-hover-hover {
+   border: 1px solid gray;
+   max-width: 600px;
+   min-height: 100px;
+   margin: 0 auto;
+   padding: 20px;
+   background: rgb(244, 228, 198);
+   margin-bottom: 50px;
+}
+.block-hover-hover:hover{
+   background: green;
+}
+.tt {
+   border: 2px solid black;
+   max-width: 500px;
+   min-height: 30px;
+   margin: 0 auto;
+   text-align: center;
+   background: blueviolet;
+   color: azure;
+}
+.none{
+   border: 1px solid gray;
+   background: #dde0eb;
+   max-width: 500px;
+   margin: 0 auto;
+   opacity: 0;
+   visibility: hidden;
+}
+.tabl__hove:hover .none{
+   opacity: 1;
+   visibility: visible;
+}
+.tt:hover{
+background:pink;
+}
+.picter{
+   border: 1px solid gray;
+   margin: 0 auto;
+   width: 500px;
+   height: 500px;
+   background: pink;
+   box-shadow:5px 5px 5px 10px rgb(67, 37, 67), inset 5px 5px 10px 2px grey;
+   margin-bottom: 50px;
+}
+.picter:active{
+   background:url(../img/pink.jpg)0 0/ cover no-repeat;
+}
+
+ol{
+   margin-left: 20px;
+   margin-bottom: 50px;
+}
+ol li:not(:last-child){
+   margin-bottom: 20px;
+}
+ol li::before{
+   background:url(../img/like.jpg) 0 0 no-repeat;
+   content: "";     
+   width: 24px; 
+   height: 24px; 
+   display: inline-block; 
+   margin-bottom: 10px;      
+   min-height: 25px; 
+   margin-right: 20px;                                    
+}
+ol li::after{
+   background: url(../img/check.jpg) 0 4px no-repeat;
+   content: "";
+   width: 16px;
+   height: 16px;
+   display: inline-block;
+   min-height: 20px;
+}
+ol li:hover::before{
+   transition: all 0.3s ease 0s;
+   transform: rotate(-180deg);
+}
+ol li:hover::after{
+   transition: all 0.5s ease 0s;
+   transform: rotate(-360deg);
+}
+.picters {
+   border: 1px solid gray;
+   width: 500px;
+   height: 700px;
+   margin: 0 auto;
+   background-color: bisque;
+}
+.block-picters {
+   border: 1px solid gray;
+   width: 600px;
+   height: 700px;
+   margin: 0 auto;
+   background: url(../img/nice_girl.jpg) 0 0/cover no-repeat;
+   opacity: 0;
+}
